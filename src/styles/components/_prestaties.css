@@ -1,0 +1,92 @@
+.prestatieCustom-container {
+  background-color: #0a0f25;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.prestatieCustom-header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.prestatieCustom-xp-section {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.prestatieCustom-xp-title {
+  font-size: 1.5rem;
+}
+
+.prestatieCustom-xp-value {
+  font-size: 3rem;
+}
+
+.prestatieCustom-stats-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.prestatieCustom-stat-item {
+  text-align: center;
+}
+
+.prestatieCustom-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.prestatieCustom-stat-title {
+  font-size: 1.2rem;
+}
+
+.prestatieCustom-circle {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.progress-ring__circle {
+  stroke-width: 4;
+  transition: stroke-dashoffset 0.5s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.prestatieCustom-circle-text {
+  font-size: 1.2rem;
+  fill: white;
+}
+
+.prestatieCustom-badges-section {
+  margin: 40px 0;
+}
+
+.prestatieCustom-badges-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.prestatieCustom-badge {
+  width: 60px;
+  height: 60px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.prestatieCustom-graph-section {
+  padding-top: 4rem;
+  margin: 40px 0;
+}
+
+.prestatieCustom-graph-placeholder {
+  padding-top: 2rem;
+  display:flex; 
+  width: 100%;
+  justify-content: center;
+}

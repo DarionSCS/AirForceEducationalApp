@@ -1,0 +1,15 @@
+/* === Progress bar === */
+.progress-bar {
+  width: 100%;
+  background-color: var(--faded-blue);
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.progress-bar-filled {
+  height: 25px;
+  background-color: var(--yellow);
+  width: 0;
+  transition: width 0.5s ease-in-out;
+}

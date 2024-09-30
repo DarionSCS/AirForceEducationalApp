@@ -1,0 +1,31 @@
+/* === Styling for Sprites on Globe and MissionNav elements === */
+.sprites {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.spriteOuter {
+  padding: 0.2em;
+  transform: rotate(-45deg);
+  border: 1px solid var(--yellow);
+}
+
+.spriteInner {
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--white);
+  background: none;
+}
+
+.spriteInner p {
+  text-transform: uppercase;
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(45deg);
+}

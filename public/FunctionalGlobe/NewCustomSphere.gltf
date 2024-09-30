@@ -1,0 +1,273 @@
+{
+	"asset": {
+		"copyright": "Stealth_Falcon04",
+		"generator": "Khronos glTF Blender I/O v4.0.43",
+		"version": "2.0"
+	},
+	"extensionsUsed": [
+		"KHR_materials_emissive_strength",
+		"EXT_texture_webp"
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"name": "Scene",
+			"nodes": [
+				0,
+				1
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0,
+			"name": "Sphere_001",
+			"rotation": [
+				0,
+				-0.7071065902709961,
+				0,
+				0.7071069478988647
+			],
+			"scale": [
+				1.6373765468597412,
+				1.6373765468597412,
+				1.6373765468597412
+			]
+		},
+		{
+			"mesh": 1,
+			"name": "Sphere",
+			"rotation": [
+				0,
+				-0.7071065902709961,
+				0,
+				0.7071069478988647
+			],
+			"scale": [
+				1.6118842363357544,
+				1.6118842363357544,
+				1.6118842363357544
+			]
+		}
+	],
+	"materials": [
+		{
+			"doubleSided": true,
+			"emissiveFactor": [
+				0,
+				0.31134013514062403,
+				1
+			],
+			"extensions": {
+				"KHR_materials_emissive_strength": {
+					"emissiveStrength": 19.590404629707336
+				}
+			},
+			"name": "WF",
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [
+					0,
+					0,
+					0,
+					1
+				]
+			}
+		},
+		{
+			"alphaMode": "BLEND",
+			"name": "UV1",
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "Sphere.006",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2
+					},
+					"indices": 3,
+					"material": 0
+				}
+			]
+		},
+		{
+			"name": "Sphere",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 4,
+						"NORMAL": 5,
+						"TEXCOORD_0": 6
+					},
+					"indices": 7,
+					"material": 1
+				}
+			]
+		}
+	],
+	"textures": [
+		{
+			"extensions": {
+				"EXT_texture_webp": {
+					"source": 0
+				}
+			},
+			"sampler": 0,
+			"source": 1
+		}
+	],
+	"images": [
+		{
+			"mimeType": "image/webp",
+			"name": "UV",
+			"uri": "UV.webp"
+		},
+		{
+			"mimeType": "image/png",
+			"name": "UV",
+			"uri": "UV.png"
+		}
+	],
+	"accessors": [
+		{
+			"bufferView": 0,
+			"componentType": 5126,
+			"count": 17920,
+			"max": [
+				1.0018514394760132,
+				1.0017430782318115,
+				1.0018510818481445
+			],
+			"min": [
+				-1.0018508434295654,
+				-1.0017430782318115,
+				-1.0018517971038818
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 17920,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"componentType": 5126,
+			"count": 17920,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"componentType": 5123,
+			"count": 26880,
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 4,
+			"componentType": 5126,
+			"count": 625,
+			"max": [
+				0.9999997019767761,
+				1,
+				0.9999993443489075
+			],
+			"min": [
+				-0.9999990463256836,
+				-1,
+				-1
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 5,
+			"componentType": 5126,
+			"count": 625,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 6,
+			"componentType": 5126,
+			"count": 625,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 7,
+			"componentType": 5123,
+			"count": 3264,
+			"type": "SCALAR"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 215040,
+			"byteOffset": 0,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 215040,
+			"byteOffset": 215040,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 143360,
+			"byteOffset": 430080,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 53760,
+			"byteOffset": 573440,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7500,
+			"byteOffset": 627200,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7500,
+			"byteOffset": 634700,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5000,
+			"byteOffset": 642200,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6528,
+			"byteOffset": 647200,
+			"target": 34963
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9987
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 653728,
+			"uri": "NewCustomSphere.bin"
+		}
+	]
+}

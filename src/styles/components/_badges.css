@@ -1,0 +1,15 @@
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+
+    & img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+}
+
+.not-achieved {
+        filter: saturate(0);
+        opacity: 0.5;
+}

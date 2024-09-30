@@ -1,0 +1,39 @@
+/* Dit zorgt voor problemen op de home page en idk waarom dus ik heb het in de NL.jsx gewoon geschreven */
+
+/* .container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+} */
+
+.game-over {
+  color: white;
+  font-size: 3rem;
+}
+
+.radar {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: var(--dark-blue);
+  border-radius: 50%;
+  border: 2px solid var(--white);
+}
+
+.airplane {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.border-orange {
+  border: 2px solid var(--yellow);
+}
+
+.border-red {
+  border: 2px solid var
+}

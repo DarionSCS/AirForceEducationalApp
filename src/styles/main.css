@@ -1,0 +1,35 @@
+/* ==== Importing CSS files ==== */
+/* @import url (./components/FILENAME.css */
+
+@import url(./base/_typography.css);
+/* all fonts and adjacent styles can be found here */
+
+@import url(./abstracts/_variables.css);
+/* @import url(./abstracts/_tailwind.css); */
+/* all colors and most used utility variables */
+
+
+
+/*---- Each page can be styled within the base folder ----*/
+@import url(./base/_app.css);
+@import url(./base/_home.css);
+@import url(./base/_settings.css);
+@import url(./base/_landing.css);
+
+
+/*---- Each component has its own designated file ----*/
+@import url(./components/_avatarSelectie.css);
+@import url(./components/_badges.css);
+@import url(./components/_instellingen.css);
+@import url(./components/_missionbtns.css);
+@import url(./components/_missionNav.css);
+@import url(./components/_missionOverlay.css);
+@import url(./components/_NL.css);
+@import url(./components/_nieuws.css);
+@import url(./components/_ontwijkspel.css);
+@import url(./components/_prestaties.css);
+@import url(./components/_profile.css);
+@import url(./components/_profilebtn.css);
+@import url(./components/_progress.css);
+@import url(./components/_sprite.css);
+@import url(./components/_footer.css);

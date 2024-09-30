@@ -1,0 +1,43 @@
+.uitgelichte-missies h2 {
+  font-size: large;
+  margin: 1rem 0 1.1em .5rem;
+  font-weight: 400;
+}
+
+.uitgelichte-missies_flex {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.8rem;
+  padding-bottom: 2rem;
+}
+
+/* DualTone Line */
+.lines {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.line-yellow-left {
+  border: 2px solid var(--yellow);
+  width: 50%;
+  border-radius: 5px;
+  margin-left: -50%;
+}
+
+.line-yellow-right {
+  border: 2px solid var(--yellow);
+  width: 50%;
+  border-radius: 5px;
+  box-shadow: 2px var(--black);
+  margin-right: -50%;
+}
+
+.line-white {
+  border: 1px solid var(--white);
+  max-width: 105%;
+  width: 100%;
+}

@@ -1,0 +1,51 @@
+/* ==== Used fonts ==== */
+
+/* Sora classes */
+h1,
+h2 {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+/* Nokora classes */
+.nokora-thin {
+  font-family: "Nokora", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.nokora-light {
+  font-family: "Nokora", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* .nokora-regular */
+p {
+  font-family: "Nokora", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* nokora-bold */
+h2 {
+  font-family: "Nokora", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nokora-black {
+  font-family: "Nokora", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* === colors === */
+h1,
+h2,
+p {
+  color: var(--white);
+}

@@ -1,0 +1,52 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Adjust the number based on how many columns you want */
+    gap: 10px;
+    /* Adjust the gap between grid items */
+    padding: 10px;
+    /* Adjust the padding around the grid */
+}
+
+.grid-item img {
+    width: 13rem;
+    /* Adjust this to make the image smaller or larger */
+    height: auto;
+    /* Keep the image aspect ratio */
+    display: block;
+    /* Needed for centering images */
+    margin-left: auto;
+    /* Center the image */
+    margin-right: auto;
+    /* Center the image */
+    overflow: hidden;
+    /* Hide anything that goes outside the image bounds */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item img {
+    filter: contrast(.5);
+    opacity: 0.5;
+}
+
+.selected-avatar img {
+    border: 3px solid var(--yellow);
+    filter: contrast(1);
+
+}
+
+.grid-item img:hover {
+    border: 5px solid var(--light-yellow);
+    filter: contrast(1);
+    opacity: 1;
+}
+
+
+.avatar-selectie-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

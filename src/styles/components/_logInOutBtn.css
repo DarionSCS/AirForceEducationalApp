@@ -1,0 +1,17 @@
+.Log-in-out__btn {
+  background-color: var(--dark-yellow);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.Log-in-out__btn:hover {
+  background-color: black;
+}

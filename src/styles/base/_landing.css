@@ -1,0 +1,150 @@
+.landing-nav {
+  background: var(--gray);
+  color: var(--white);
+}
+
+
+.landing-nav ul {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-nav li {
+  padding: 0.5rem 1rem;
+
+  color: #FFF;
+  font-family: Sora;
+  font-size: 1.25rem;
+}
+
+.landing-nav img {
+  max-width: 10rem;
+  transition: .1s;
+}
+
+.landing-nav img:hover {
+  filter: contrast(.4);
+  transition: .1s;
+}
+
+.landing-wrapper img {
+  z-index: -1;
+  margin-right: auto;
+  width: 100%;
+}
+
+.landing-wrapper div {
+  backdrop-filter: blur(2px);
+  z-index: 1;
+  position: absolute;
+  top: 30%;
+  width: 70%;
+  left: 3rem;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 8px 12px 12px 1px rgba(0, 0, 0, 0.2);
+  border-top: 2px dashed var(--yellow);
+  border-left: 2px dashed var(--yellow);
+}
+
+.landing-wrapper h1 {
+  color: var(--white);
+  font-family: Sora;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.landing-wrapper span {
+  color: var(--white);
+  font-family: Nokora;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.landing-wrapper p {
+  color: var(--white);
+  font-family: Nokora;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+}
+
+/* ==== page revealer styling ==== */
+
+/* made with the following tutorial: https://www.youtube.com/watch?v=1ceZHJvC5jA and adapted to the project */
+
+.revealer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.revealer .block {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transform-origin: left;
+}
+
+.revealer .block1 {
+  background: var(--yellow);
+  transform: scaleX(0);
+  animation: revealAnim 2000ms ease-in;
+}
+
+.revealer .block2 {
+  background: var(--dark-blue);
+  transform: scaleX(0);
+  animation: revealAnim 1500ms ease;
+  animation-delay: 500ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.block2 img {
+  padding: 0 10rem 0 10rem;
+  width: 80%;
+  max-width: 60rem;
+}
+
+.revealer .block3 {
+  background: var(--yellow);
+  animation: revealAnim forwards;
+  animation-delay: 400ms;
+}
+
+@keyframes revealAnim {
+  50% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  51% {
+    transform-origin: right;
+  }
+
+  100% {
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+}
+
+.hidden-content {
+  display: none;
+}
+
+.visible-content {
+  display: block;
+}

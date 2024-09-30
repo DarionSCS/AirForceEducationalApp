@@ -1,0 +1,85 @@
+/* _nieuws.css */
+
+.news-page {
+  padding: 20px;
+  position: relative;
+}
+
+.profile-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.news-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.news-title {
+  font-size: 2em;
+  color: white;
+}
+
+.featured-card {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+  border: 2px solid #e0e0e0;
+  padding: 20px;
+}
+
+.featured-card .card {
+  max-height: 25rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.card-wrapper {
+  width: calc(33.333% - 40px);
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .card-wrapper {
+    width: calc(50% - 40px);
+  }
+
+  .featured-card .card {
+    max-height: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-wrapper {
+    width: 100%;
+  }
+
+  .featured-card {
+    padding: 10px;
+  }
+}
+
+.profile-panel {
+  display: none;
+}
+
+.profile-panel.open {
+  display: block;
+}

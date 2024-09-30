@@ -1,0 +1,102 @@
+/*========== Root css ==========*/
+:root {
+  /* yellow color variants */
+
+  --dark-yellow: hsl(34, 91%, 36%);
+  --yellow: hsl(34, 91%, 56%);
+  --light-yellow: hsl(34, 91%, 65%);
+  --bright-yellow: hsl(34, 91%, 74%);
+  --faded-yellow: hsl(34, 91%, 91%);
+
+  /* blue color variants */
+  --dark-blue: hsl(214, 50%, 12%);
+  --blue: hsl(215, 16%, 29%);
+  --lightblue: hsl(210, 7%, 65%);
+  --faded-blue: hsl(210, 7%, 82%);
+
+  /* generic colors */
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --gray: hsl(60, 2%, 8%);
+  --red: hsl(0, 100%, 50%);
+  --light-red: hsl(0, 100%, 67%);
+  --green: hsl(120, 100%, 25%);
+  --light-green: hsl(120, 100%, 53%);
+  --blue: hsl(211, 100%, 30%);
+  --lightblue: hsl(211, 100%, 60%);
+
+  --links: hsl(219, 95%, 68%);
+}
+
+/* === Imported from former Index.css file === */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(180deg, #0F1C2D 0%, #335F99 50%, #0F1C2D 100%), #0F1C2D;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main {
+  /* background: var(--dark-blue); */
+  /* height: 100vh; */
+  /* max-width: 500px; */
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ==== end ===== */
+
+
+/*========== Utility classes ==========*/
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  position: relative;
+  /* padding: 0 1rem; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+
+}
+
+/* designated fonts */
+h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+/* reset ul elements */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* 
+body {
+  overflow: hidden;
+} */
+
+a {
+  color: var(--white);
+  padding-right: .5rem;
+}

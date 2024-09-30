@@ -1,0 +1,83 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.timer {
+  font-size: 24px;
+  color: var(--white);
+  font-family: nokora;
+  /* background-color: var(--faded-blue); */
+}
+
+.pause-button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.start-button {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.retry-button {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.map {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-image: url(../../../public/assets/images/topview.png);
+  border: 4px dashed var(--yellow);
+  margin-top: 20px;
+  border-radius: 1%;
+}
+
+.center-object {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: var(--green);
+  border: 2px solid var(--light-green);
+  transform: translate(-50%, -50%);
+}
+
+.soldier {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: var(--blue);
+  border: 5px dashed var(--light-blue);
+}
+
+.enemy {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: var(--light-red);
+  border: 2px solid var(--red);
+  border-radius: 100%;
+  cursor: pointer;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.game-over {
+  font-size: 48px;
+  color: var(--white);
+  margin-top: 20px;
+  font-size: 32px;
+}

@@ -1,0 +1,26 @@
+/*=== Profile button === */
+
+.outer-profileButton {
+  border: 1px solid var(--white);
+  padding: 0.375rem;
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  position: absolute;
+  z-index: 100;
+  transform: rotate(45deg);
+}
+
+.profileButton {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--white);
+  border: 2px solid var(--dark-yellow);
+  color: var(--white);
+  padding: 0;
+  display: block;
+}
+
+.profile-wrapper :hover>.profileButton {
+  border: 2px solid var(--yellow);
+}
